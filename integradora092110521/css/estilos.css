@@ -1,0 +1,28 @@
+h1,p,h2,h3
+{
+    color: #123E5C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+}
+
+/* estilo 
+externo */
+
+h4{
+    color: #6E2E0C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#ECE8EA;
+    border: 1px solid Tomato;
+}
+
+/*fondo a la pagina*/
+body
+{
+    background-image: url("../img/imagen.png");
+}
+
+header,footer {
+    background-color: lightblue;
+    opacity: 0.6;
+  }

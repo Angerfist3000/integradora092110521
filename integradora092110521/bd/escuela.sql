@@ -1,0 +1,15 @@
+
+DROP DATABASE IF EXISTS escuela;
+CREATE DATABASE escuela;
+USE escuela;
+
+CREATE TABLE alumno (
+  id_alumno INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  matricula INTEGER UNSIGNED NOT NULL,
+  nombre VARCHAR(100) NOT NULL,
+  apellido_p VARCHAR(100) NOT NULL,
+  apellido_m VARCHAR(100) NOT NULL,
+  edad INTEGER UNSIGNED NOT NULL,
+  PRIMARY KEY(id_alumno)
+);
+
